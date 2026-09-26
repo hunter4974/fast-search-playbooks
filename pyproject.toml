@@ -1,0 +1,14 @@
+[project]
+name = "golden-section-search"
+version = "0.1.0"
+description = "Minimizes a unimodal scalar function on an interval without derivatives."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
